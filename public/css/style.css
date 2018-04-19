@@ -147,6 +147,14 @@ body {
     display: inline-block;
 }
 
+#snsP, #organicP, #spaP, #microP, #manP {
+    font-size: 14px;
+   
+}
+
+#cndP {
+    font-size: 12px;
+}
 }
 
 /* end tablet*/
