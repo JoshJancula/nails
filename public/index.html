@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--header logo area-->
+    <div class="row center">
+
+        <div class="row center">
+            <h3 id="bloomLogo" class="white-text">Blooming Nails</h3><br>
+            <a href="#" data-activates="slide-out" class="center button-collapse hide-on-med-and-up"><i id="menuButton" class="medium material-icons white-text">menu</i></a>
+        </div>
+        <div class="row center hide-on-small-only">
+            <div class="col l3 m3"></div>
+            <div class="col l2 m2">
+                <a href="/home" class="white-text">Home</a>
+            </div>
+            <div class="col l2 m2">
+                <a href="/services" class="white-text">Products & Services</a>
+            </div>
+
+            <div class="col l2 m2">
+                <a href="/contact" class="white-text">Contact</a>
+            </div>
+            <div class="col l3 m3"></div>
+        </div>
+    </div>
+
+    <!--sideNav hidden on large scrrens-->
+
+    <ul id="slide-out" class="side-nav hide-on-large blue lighten-4">
+        <li><img id="logoImageSide" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p480x480/12074496_1049979985058278_8714240082777628290_n.jpg?_nc_cat=0&oh=75fc094c12674018e1f294f42541ebb7&oe=5B69D422"></li>
+        <li><a href="/index" class="white-text" id="home">Home</a></li>
+        <li> <a class="waves-effect waves-light white-text modal-trigger" href="#hoursModal">Hours</a></li>
+
+        <li><a href="/services" class="white-text" id="services">Services</a></li>
+        <li><a href="/contact" class="white-text" id="contact">Contact</a></li>
+    </ul>
+
+    <!--end side nav-->
+
+    <!--begin main content-->
+    <div class="row container">
+        <!--<div class="col l1 m1"></div>-->
+
+        <div class="col l12 m12">
+            <div class="row center">
+                <div class="col l7 m12">
+                    <img id="storeImage" src="http://www.bloomingnails.net/publishImages/index~~element137.jpeg">
+                </div>
+                <div class="col l5 m12 white-text">
+                    <div class="row">
+                        <h5 id="highQuality">~Enjoy High Quality Relaxation~</h5>
+                        <p>At Bloomings, we have designed an environment promoting high quality relaxation. Enjoy having your needs taken care of in an establishment where cleanliness and customer service is top priority. Indulge solo, with a friend, or
+                            with a group as our friendly staff help you feel pampered, soothed and truly cared for.</p>
+                        <p>Planning a special occasion? Allow Bloomings to facilitate your celebration of special event. We welcome all gatherings, big and small. There are many opportunities for your needs here! Call for details. </p>
+                        <p>If you are not familiar with our company and your first contact with us is online: We would be pleased to hear from you! Please let us know what your needs and questions are, we will be more than happy to help. Call us at (704)
+                            882-8383</p>
+                    </div>
+
+                    <div class="row">
+                        <img id="logoImage" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p480x480/12074496_1049979985058278_8714240082777628290_n.jpg?_nc_cat=0&oh=75fc094c12674018e1f294f42541ebb7&oe=5B69D422">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="row center">
+                            <div class="col l4">
+                                <img id="bladeImage" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/14724365_1312801195442821_1116730479332655227_n.jpg?_nc_cat=0&oh=8838bc45715a91c9435ade4b485be02c&oe=5B71D19C">
+                            </div>
+                            <div class="col l4 center">
+                                <p id="bottomPhone" style="color: #CEB9F0;">14035 highway 74 east suite b-3, indian trail, NC 28079<br>(704) 882-8383 </p>
+                            </div>
+
+                            <div class="col l4">
+                                <a href="https://www.facebook.com/BloomingNailsLashnBrow/"><img id="facebook" src="images/facebook.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="col l1 m1"></div>-->
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="hoursModal" class="modal pink lighten-4 white-text">
+        <div class="modal-content">
+            <h4>Hours</h4>
+            <p>Monday-Friday 10am - 7:30pm<br> Saturday 9:30am - 7pm <br> Sunday: close. </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Thanks</a>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+            $('.modal').modal();
+        })
+    </script>
+</body>
+
+</html>

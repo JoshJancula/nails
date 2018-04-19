@@ -1,0 +1,156 @@
+body {
+    background: #CEB9F0;
+}
+
+#bloomLogo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 90px;
+    margin-bottom: -1%;
+}
+
+.collapsible {
+    margin-left: -9%;
+}
+
+#logoImage {
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
+}
+
+#bladeImage {
+    height: auto;
+    width: 100%;
+}
+
+.tabArea {
+    font-size: 15px;
+}
+
+.tabArea2 {
+    background: white;
+    color: #CEB9F0;;
+}
+
+#storeImage {
+    height: 850px;
+    width: 100%;
+}
+
+/*#highQuality {*/
+/*    margin-top: 3%;*/
+/*}*/
+
+#facebook {
+    margin-top: 10%;
+    width: 100%;
+}
+
+#bottomPhone {
+    margin-top: 20%;
+    margin-left: -8%;
+}
+
+.carouselImage {
+    width: 200px;
+    height: 150px;
+}
+
+
+.carouselCard {
+    margin-top: -3%;
+}
+ 
+#prideText {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#mapPic {
+    width: 100%;
+}
+
+#facebookContact {
+    width: 40%;
+    margin-top: -5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+/* end large devices */
+
+
+/*  this is for tablets */
+@media screen and (max-width: 980px) and (min-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
+    .collapsible {
+    margin-left: 0%;
+}
+
+ #storeImage {
+    height: auto;
+    width: 100%;
+}
+
+.card{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#facebook {
+    margin-top: 0%;
+    width: 100%;
+}
+
+#bottomPhone {
+    margin-top: 0%;
+    margin-left: 0%;
+}
+#bladeImage {
+    height: auto;
+    width: 100%;
+}
+}
+
+/* end tablet*/
+
+
+
+
+/*  this is for phones */
+@media screen and (max-width: 666px) and (min-width: 250px) and (-webkit-min-device-pixel-ratio: 2){
+    #storeImage {
+    height: auto;
+    width: 100%;
+}
+
+.carouselImage {
+    width: 130px;
+    height: 130px;
+    margin-top: 3%;
+}
+
+.collapsible {
+    margin-left: 0%;
+}
+
+#facebook {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#bottomPhone {
+    margin-top: -10%;
+    margin-left: 0%;
+}
+#bladeImage {
+    height: auto;
+    width: 100%;
+}
+
+#logoImageSide {
+    width: 100%;
+   
+}
+    
+}

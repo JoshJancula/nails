@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--header logo area-->
+    <div class="row center">
+         
+        <div class="row center">
+        <h3 id="bloomLogo" class="white-text">Blooming Nails</h3><br>
+        <a href="#" data-activates="slide-out" class="center button-collapse hide-on-med-and-up"><i id="menuButton" class="medium material-icons white-text">menu</i></a>
+        </div>
+        <div class="row center hide-on-small-only">
+            <div class="col l3 m3"></div>
+            <div class="col l2 m2">
+            <a href="/home" class="white-text">Home</a>
+            </div>
+            <div class="col l2 m2">
+            <a href="/services" class="white-text">Products & Services</a>
+            </div>
+          
+            <div class="col l2 m2">
+            <a href="/contact" class="white-text">Contact</a>
+            </div>
+            <div class="col l3 m3"></div>
+        </div>
+    </div>
+    
+    <!--sideNav hidden on large scrrens-->
+
+        <ul id="slide-out" class="side-nav hide-on-large blue lighten-4">
+            <li><img id="logoImageSide" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p480x480/12074496_1049979985058278_8714240082777628290_n.jpg?_nc_cat=0&oh=75fc094c12674018e1f294f42541ebb7&oe=5B69D422"></li>
+            <li><a href="/index" class="white-text" id="home">Home</a></li>
+            <li> <a class="waves-effect waves-light white-text modal-trigger" href="#hoursModal">Hours</a></li>
+            <li><a href="/services" class="white-text" id="services">Services</a></li>
+            <li><a href="/contact" class="white-text" id="contact">Contact</a></li>
+        </ul>
+
+        <!--end side nav-->
+        
+    <!--begin main content-->
+    
+    
+         <div class="row container">
+            <div class="col l5 s12 center">
+                <!--put map here-->
+                <h5 class="white-text">At bloomingnails, our attentive staff is available to answer your questions and ensure you are 100% satisfied.</h5>
+               <iframe id="mapPic" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13060.540770582144!2d-80.653801!3d35.0783547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1d56cd0f6b15294!2sBlooming+Nails!5e0!3m2!1sen!2sus!4v1524121429815" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br>
+               
+                <div class="row center" id="phoneLink">
+                    <div class="col l2"></div>
+                    <div class="col l2">
+                        <i class="material-icons call white-text  medium">call</i>
+                    </div>
+                    <div class="col l8">
+                        <h5 class="white-text left">704-896-7756</h5>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <a href="https://www.facebook.com/BloomingNailsLashnBrow/"><img id="facebookContact" src="images/facebook.png"></a>
+                </div>
+              
+            </div>
+
+            <div class="col l7 m12 s12" id="form">
+                <div class="container">
+
+                    <form class="col l12 m12 s12">
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <input id="name" type="text" class="white-text">
+                                <label class="white-text" for="name">Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <input id="phone" type="text" class="white-text">
+                                <label class="white-text" for="phone">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <input id="email" type="email" class="white-text">
+                                <label class="white-text" for="email">E-mail</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <input id="message" type="text" class="white-text">
+                                <label  class="white-text"for="text">Message</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l3 s12">
+                                <div class="row white-text">
+                                    <div class="col l1" id="digit1"></div>
+                                    <div class="col l1">+</div>
+                                    <div class="col l1" id="digit2"></div>
+                                    <div class="col l9"></div>
+                                </div>
+                            </div>
+
+                            <div class="l9 s0"></div><br>
+                            <div class="input-field col l12 s12">
+                                <input id="answer" type="text" class="white-text">
+                                <label class="white-text" for="text">What is the solution to the equation?</label>
+                            </div>
+                        </div>
+<div class="row center white-text">
+                        <p>We really appreciate your feedbacks. In order to be able to keep up with our high standards of service, your comments are important for us to improve. Please leave any comments here. Thank you for your interest!</p>
+                    </div>
+                        <div class="row">
+                            <div class="input-field">
+                                <a href="#" id="submitButton" class="btn waves-effect waves-light pink lighten-2 center"><span class="white-text center">Submit</span></a>
+                            </div>
+                        </div>
+
+                    </form>
+                    </div>
+                    </div>
+                    
+    </div>
+    
+    
+    
+   <!-- Modal Structure -->
+  <div id="hoursModal" class="modal pink lighten-4 white-text">
+    <div class="modal-content">
+      <h4>Hours</h4>
+      <p>Monday-Friday 10am - 7:30pm<br>
+            Saturday 9:30am - 7pm <br>
+            Sunday: close. </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Thanks</a>
+    </div>
+  </div>
+  <!--end hours-->
+  
+     <!-- thankYou modal -->
+
+                    <div id="thankYou" class="modal">
+                        <div class="modal-content">
+                            <h4>Thank You!</h4>
+                            <p>We will get back with you as soon as possible!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                        </div>
+                    </div>
+
+                    </form>
+
+                </div>
+                <!--end of modal-->
+
+                <!-- pleaseComplete -->
+
+                <div id="pleaseComplete" class="modal">
+                    <div class="modal-content">
+                        <div id="wrong"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                    </div>
+                </div>
+
+                </form>
+
+            </div>
+            <!--end of modal-->
+
+    
+      <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
+    <script src="./js/contact.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+            $('.modal').modal();
+        })
+    </script>
+    </body>
+    
+    </html>
