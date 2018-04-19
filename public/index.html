@@ -22,29 +22,31 @@
             <a href="#" data-activates="slide-out" class="center button-collapse hide-on-med-and-up"><i id="menuButton" class="medium material-icons white-text">menu</i></a>
         </div>
         <div class="row center hide-on-small-only">
-            <div class="col l3 m3"></div>
+            <div class="col l2 m2"></div>
             <div class="col l2 m2">
                 <a href="/home" class="white-text">Home</a>
             </div>
             <div class="col l2 m2">
                 <a href="/services" class="white-text">Products & Services</a>
             </div>
+            <div class="col l2 m2">
+                <a href="/gallery" class="white-text">Gallery</a>
+            </div>
 
             <div class="col l2 m2">
                 <a href="/contact" class="white-text">Contact</a>
             </div>
-            <div class="col l3 m3"></div>
+            <div class="col l2 m2"></div>
         </div>
     </div>
 
     <!--sideNav hidden on large scrrens-->
 
-    <ul id="slide-out" class="side-nav hide-on-large blue lighten-4">
+    <ul id="slide-out" class="side-nav hide-on-large pink lighten-5">
         <li><img id="logoImageSide" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p480x480/12074496_1049979985058278_8714240082777628290_n.jpg?_nc_cat=0&oh=75fc094c12674018e1f294f42541ebb7&oe=5B69D422"></li>
         <li><a href="/index" class="white-text" id="home">Home</a></li>
-        <li> <a class="waves-effect waves-light white-text modal-trigger" href="#hoursModal">Hours</a></li>
-
         <li><a href="/services" class="white-text" id="services">Services</a></li>
+        <li><a href="/gallery" class="white-text" id="gallery">Gallery</a></li>
         <li><a href="/contact" class="white-text" id="contact">Contact</a></li>
     </ul>
 
@@ -76,15 +78,16 @@
 
                 </div>
             </div>
-            <div class="row">
-                <div class="card">
+            <div class="row center">
+                <div class="card" id="homeCard">
                     <div class="card-content">
                         <div class="row center">
                             <div class="col l4">
                                 <img id="bladeImage" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/14724365_1312801195442821_1116730479332655227_n.jpg?_nc_cat=0&oh=8838bc45715a91c9435ade4b485be02c&oe=5B71D19C">
                             </div>
                             <div class="col l4 center">
-                                <p id="bottomPhone" style="color: #CEB9F0;">14035 highway 74 east suite b-3, indian trail, NC 28079<br>(704) 882-8383 </p>
+                                <p id="bottomPhone" style="color: #CEB9F0;">14035 highway 74 east suite b-3, indian trail, NC 28079<br>(704) 882-8383 </p><br>
+                                <a id="hoursButton" class="waves-effect waves-light white-text modal-trigger btn pink lighten-3" href="#hoursModal">Hours</a>
                             </div>
 
                             <div class="col l4">
@@ -103,7 +106,7 @@
     <div id="hoursModal" class="modal pink lighten-4 white-text">
         <div class="modal-content">
             <h4>Hours</h4>
-            <p>Monday-Friday 10am - 7:30pm<br> Saturday 9:30am - 7pm <br> Sunday: close. </p>
+            <p>Monday-Friday 10am - 7:30pm<br> Saturday 9:30am - 7pm <br> Sunday: closed </p>
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Thanks</a>

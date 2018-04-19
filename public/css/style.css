@@ -2,6 +2,21 @@ body {
     background: #CEB9F0;
 }
 
+.galleryImage {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+  
+}
+
+.galleryCard {
+    height: 250px;
+    width: 250px;
+    margin: 3%;
+    display: inline-block;
+}
+
+
 #bloomLogo {
     font-family: 'Great Vibes', cursive;
     font-size: 90px;
@@ -51,6 +66,10 @@ body {
     margin-left: -8%;
 }
 
+#hoursButton {
+    margin-left: -8%;
+}
+
 .carouselImage {
     width: 200px;
     height: 150px;
@@ -77,6 +96,9 @@ body {
     margin-right: 30%;
 }
 
+#homeCard {
+    margin-left: 1%;
+}
 
 /* end large devices */
 
@@ -110,6 +132,21 @@ body {
     height: auto;
     width: 100%;
 }
+
+.galleryImage {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+  
+}
+
+.galleryCard {
+    height: 200px;
+    width: 200px;
+    margin: 3%;
+    display: inline-block;
+}
+
 }
 
 /* end tablet*/
@@ -143,6 +180,11 @@ body {
     margin-top: -10%;
     margin-left: 0%;
 }
+
+#hoursButton {
+    margin-left: 0%;
+}
+
 #bladeImage {
     height: auto;
     width: 100%;
@@ -151,6 +193,19 @@ body {
 #logoImageSide {
     width: 100%;
    
+}
+
+#homeCard {
+    margin-left: 0%;
+}
+
+#snsP, #organicP, #spaP, #microP, #manP {
+    font-size: 12px;
+   
+}
+
+#cndP {
+    font-size: 9.5px;
 }
     
 }

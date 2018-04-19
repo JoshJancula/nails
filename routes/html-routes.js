@@ -28,4 +28,9 @@ module.exports = function(app) {
   app.get("/services", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/services.html"));
   });
+  
+  //  route loads gallery.html
+  app.get("/gallery", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/gallery.html"));
+  });
 };
