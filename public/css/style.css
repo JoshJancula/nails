@@ -28,9 +28,9 @@ body {
 }
 
 #logoImage {
-    margin-top: 1%;
-    width: 100%;
-    height: auto;
+    margin-top: 0%;
+    width: 75%;
+   
 }
 
 #bladeImage {
@@ -48,7 +48,7 @@ body {
 }
 
 #storeImage {
-    height: 850px;
+    height: auto;
     width: 100%;
 }
 
@@ -61,10 +61,10 @@ body {
     width: 100%;
 }
 
-#bottomPhone {
-    margin-top: 20%;
-    margin-left: -8%;
-}
+/*#bottomPhone {*/
+/*    margin-top: 20%;*/
+/*    margin-left: -8%;*/
+/*}*/
 
 #hoursButton {
     margin-left: -8%;
@@ -111,7 +111,7 @@ body {
 
  #storeImage {
     height: auto;
-    width: 100%;
+    width: 80%;
 }
 
 .card{
@@ -120,14 +120,10 @@ body {
 }
 
 #facebook {
-    margin-top: 0%;
-    width: 100%;
+    margin-top: 2%;
+    width: 40%;
 }
 
-#bottomPhone {
-    margin-top: 0%;
-    margin-left: 0%;
-}
 #bladeImage {
     height: auto;
     width: 100%;
@@ -145,6 +141,15 @@ body {
     width: 200px;
     margin: 3%;
     display: inline-block;
+}
+
+#bottomPhone {
+    margin-top: -12%;
+    margin-left: 3%;
+}
+
+#hoursButton {
+    margin-left: 2%;
 }
 
 #snsP, #organicP, #spaP, #microP, #manP {
@@ -166,7 +171,7 @@ body {
 @media screen and (max-width: 666px) and (min-width: 250px) and (-webkit-min-device-pixel-ratio: 2){
     #storeImage {
     height: auto;
-    width: 100%;
+    width: 80%;
 }
 
 .carouselImage {
