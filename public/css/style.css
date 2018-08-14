@@ -52,23 +52,23 @@ body {
     width: 100%;
 }
 
-/*#highQuality {*/
-/*    margin-top: 3%;*/
-/*}*/
+#highQuality {
+    margin-top: 3%;
+}
 
 #facebook {
     margin-top: 10%;
     width: 100%;
 }
 
-/*#bottomPhone {*/
-/*    margin-top: 20%;*/
-/*    margin-left: -8%;*/
-/*}*/
-
-#hoursButton {
+#bottomPhone {
+    margin-top: 15%;
     margin-left: -8%;
 }
+
+/*#hoursButton {*/
+/*    margin-left: -8%;*/
+/*}*/
 
 .carouselImage {
     width: 200px;
