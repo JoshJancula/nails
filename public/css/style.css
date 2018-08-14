@@ -28,7 +28,7 @@ body {
 }
 
 #logoImage {
-    margin-top: 0%;
+    margin-top: 3%;
     width: 75%;
    
 }
@@ -48,8 +48,12 @@ body {
 }
 
 #storeImage {
-    height: auto;
+    height: 1000px;
     width: 100%;
+}
+
+.aboutText {
+    width: 80%;
 }
 
 #highQuality {
@@ -100,11 +104,20 @@ body {
     margin-left: 1%;
 }
 
+#submitButton {
+    float: center;
+}
+
 /* end large devices */
 
 
 /*  this is for tablets */
 @media screen and (max-width: 980px) and (min-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
+    
+    #logoImage {
+    margin-top: 0%;
+}
+
     .collapsible {
     margin-left: 0%;
 }
@@ -220,5 +233,15 @@ body {
 #cndP {
     font-size: 9.5px;
 }
+
+   #logoImage {
+    margin-top: 0%;
+}
     
+}
+
+@media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+    .aboutText {
+        font-size: 18px;
+    }
 }
