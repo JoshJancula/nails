@@ -24,7 +24,7 @@ body {
 }
 
 .collapsible {
-    margin-left: -9%;
+    margin-left: -6%;
 }
 
 #logoImage {
@@ -60,7 +60,7 @@ body {
     margin-top: 3%;
 }
 
-#facebook {
+.facebook {
     margin-top: 10%;
     width: 100%;
 }
@@ -81,7 +81,7 @@ body {
 
 
 .carouselCard {
-    margin-top: -3%;
+    margin-top: 2.5%;
 }
  
 #prideText {
@@ -93,7 +93,7 @@ body {
     width: 100%;
 }
 
-#facebookContact {
+.facebookContact {
     width: 40%;
     margin-top: -5%;
     margin-left: 30%;
@@ -132,7 +132,7 @@ body {
     margin-right: 2%;
 }
 
-#facebook {
+.facebook {
     margin-top: 2%;
     width: 40%;
 }
@@ -188,8 +188,8 @@ body {
 }
 
 .carouselImage {
-    width: 130px;
-    height: 130px;
+    width: 70px;
+    height: 70px;
     margin-top: 3%;
 }
 
@@ -197,7 +197,7 @@ body {
     margin-left: 0%;
 }
 
-#facebook {
+.facebook {
     margin-top: 5%;
     width: 100%;
 }
@@ -237,11 +237,23 @@ body {
    #logoImage {
     margin-top: 0%;
 }
+
+.galleryCard {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    /*margin-left: 8%;*/
+    margin-right: 17%;
+}
     
 }
 
-@media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) {
     .aboutText {
         font-size: 18px;
+    }
+    
+    #logoImage {
+        margin-top: -1.5%;
     }
 }
